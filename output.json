@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <CallSid>9f04e1018ce970bcd34828c5a2d11583</CallSid>
+  <EventType>terminal</EventType>
+  <DateCreated>2021-08-03 13:03:02</DateCreated>
+  <DateUpdated>2021-08-03 13:03:20</DateUpdated>
+  <Status>completed</Status>
+  <To>08046802396</To>
+  <From>08045681096</From>
+  <PhoneNumberSid>08046810223</PhoneNumberSid>
+  <StartTime>2021-08-03 13:03:07</StartTime>
+  <EndTime>2021-08-03 13:03:20</EndTime>
+  <EventTime>2021-08-03 13:03:20</EventTime>
+  <Direction>outbound-api</Direction>
+  <RecordingUrl>https://s3-ap-southeast-1.amazonaws.com/exotelrecordings/exotelvoicetest1/9f04e1018ce970bcd34828c5a2d11583.mp3</RecordingUrl>
+  <ConversationDuration number="true">7</ConversationDuration>
+  <Legs>
+    <OnCallDuration number="true">13</OnCallDuration>
+    <Status>completed</Status>
+  </Legs>
+  <Legs>
+    <OnCallDuration number="true">7</OnCallDuration>
+    <Status>completed</Status>
+  </Legs>
+  <status>
+    <CallSid>9f04e1018ce970bcd34828c5a2d11583</CallSid>
+    <EventType>terminal</EventType>
+    <DateCreated>2021-08-03 13:03:02</DateCreated>
+    <DateUpdated>2021-08-03 13:03:20</DateUpdated>
+    <Status>completed</Status>
+    <To>08046802396</To>
+    <From>08045681096</From>
+    <PhoneNumberSid>08046810223</PhoneNumberSid>
+    <StartTime>2021-08-03 13:03:07</StartTime>
+    <EndTime>2021-08-03 13:03:20</EndTime>
+    <EventTime>2021-08-03 13:03:20</EventTime>
+    <Direction>outbound-api</Direction>
+    <RecordingUrl>https://s3-ap-southeast-1.amazonaws.com/exotelrecordings/exotelvoicetest1/9f04e1018ce970bcd34828c5a2d11583.mp3</RecordingUrl>
+    <ConversationDuration number="true">7</ConversationDuration>
+    <Legs>
+      <OnCallDuration number="true">13</OnCallDuration>
+      <Status>completed</Status>
+    </Legs>
+    <Legs>
+      <OnCallDuration number="true">7</OnCallDuration>
+      <Status>completed</Status>
+    </Legs>
+  </status>
+</root>

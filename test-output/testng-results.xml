@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
+    <line>
+      <![CDATA[STEP5]]>
+    </line>
+    <line>
+      <![CDATA[STEP6]]>
+    </line>
+    <line>
+      <![CDATA[STEP7]]>
+    </line>
+    <line>
+      <![CDATA[STEP8]]>
+    </line>
+    <line>
+      <![CDATA[STEP9]]>
+    </line>
+    <line>
+      <![CDATA[STEP10]]>
+    </line>
+    <line>
+      <![CDATA[STEP11]]>
+    </line>
+    <line>
+      <![CDATA[STEP12]]>
+    </line>
+    <line>
+      <![CDATA[STEP13]]>
+    </line>
+    <line>
+      <![CDATA[STEP14]]>
+    </line>
+    <line>
+      <![CDATA[STEP15]]>
+    </line>
+    <line>
+      <![CDATA[STEP16]]>
+    </line>
+    <line>
+      <![CDATA[STEP17]]>
+    </line>
+    <line>
+      <![CDATA[STEP18]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37246" started-at="2021-08-03T07:33:00Z" finished-at="2021-08-03T07:33:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37246" started-at="2021-08-03T07:33:00Z" finished-at="2021-08-03T07:33:37Z">
+      <class name="commonMethods.Testcases">
+        <test-method status="PASS" signature="getDataFromConfig()[pri:0, instance:commonMethods.Testcases@750e2b97]" name="getDataFromConfig" is-config="true" duration-ms="13" started-at="2021-08-03T13:03:00Z" finished-at="2021-08-03T13:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataFromConfig -->
+        <test-method status="PASS" signature="outbound_001()[pri:0, instance:commonMethods.Testcases@750e2b97]" name="outbound_001" duration-ms="37223" started-at="2021-08-03T13:03:00Z" finished-at="2021-08-03T13:03:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+            <line>
+              <![CDATA[STEP5]]>
+            </line>
+            <line>
+              <![CDATA[STEP6]]>
+            </line>
+            <line>
+              <![CDATA[STEP7]]>
+            </line>
+            <line>
+              <![CDATA[STEP8]]>
+            </line>
+            <line>
+              <![CDATA[STEP9]]>
+            </line>
+            <line>
+              <![CDATA[STEP10]]>
+            </line>
+            <line>
+              <![CDATA[STEP11]]>
+            </line>
+            <line>
+              <![CDATA[STEP12]]>
+            </line>
+            <line>
+              <![CDATA[STEP13]]>
+            </line>
+            <line>
+              <![CDATA[STEP14]]>
+            </line>
+            <line>
+              <![CDATA[STEP15]]>
+            </line>
+            <line>
+              <![CDATA[STEP16]]>
+            </line>
+            <line>
+              <![CDATA[STEP17]]>
+            </line>
+            <line>
+              <![CDATA[STEP18]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- outbound_001 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:commonMethods.Testcases@750e2b97]" name="teardown" is-config="true" duration-ms="5" started-at="2021-08-03T13:03:37Z" finished-at="2021-08-03T13:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- commonMethods.Testcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

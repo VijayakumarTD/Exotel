@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pie Charts</title>
+
+        <link rel="stylesheet" type="text/css" href="../../../../../../../HTML_Design_Files/CSS/design.css" />
+        <link rel="stylesheet" type="text/css" href="../../../../../../../HTML_Design_Files/CSS/jquery.jqplot.css" />
+
+        <script type="text/javascript" src="../../../../../../../HTML_Design_Files/JS/jquery.min.js"></script>
+        <script type="text/javascript" src="../../../../../../../HTML_Design_Files/JS/jquery.jqplot.min.js"></script>
+        <!--[if lt IE 9]>
+        <script language="javascript" type="text/javascript" src="../../../../../../../HTML_Design_Files/JS/excanvas.js"></script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript" src="../../../../../../../HTML_Design_Files/JS/jqplot.pieRenderer.min.js"></script>
+        <script language="javascript" type="text/javascript">$(document).ready(function() { $(".exception").hide(); $("#showmenu").show(); $('#showmenu').click(function() { $('.exception').toggle("slide"); }); });        </script>    </head>
+    <body>
+        <table id="mainTable">
+            <tr id="header" >
+                <td id="logo"><img src="../../../../../../../HTML_Design_Files/IMG/TrackDfect.jpg" alt="Logo" height="80" width="140" /> <br/></td>
+                <td id="headertext">
+           Exotel Reports         
+<div style="padding-right:20px;float:right"><img src="../../../../../../../HTML_Design_Files/IMG/exotel-logo-vector.png" height="70" width="140" /> </i></div>                </td>
+            </tr>
+
+            <tr id="container">
+                <td id="menu">
+                    <ul> 
+
+ <li class="menuStyle"><a href="../../../../../../../index.html" >Index</a></li><li style="padding-top: 4px;"><a href="../../../../../../ConsolidatedPage.html" >Consolidated Page</a></li>
+
+
+                    </ul>
+                </td>
+
+
+<td id="content">   
+                    <div class="info">
+       TestCase Name: <b>outbound_001  :  Iteration 1</b><br/>                        Time Taken for Executing: <b>33 Sec</b> <br/>
+                        Current Run Number: <b>Run 110</b></br>
+                    </div>
+<div class="chartStyle summary" style="background-color:#dbae0f;width: 30%; height: 200px;">          
+                        <b>Execution Platform Details</b><br/><br/>
+                        <table>
+                            <tr>
+                                <td>O.S</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>Windows 10, amd64Bit, v10.0</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>1.8.0_201</td>
+                            </tr>
+
+                            <tr>
+                                <td>Hostname</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>DESKTOP-14KK6FQ</td>
+                            </tr>
+
+                            <tr>
+                        </table>  
+                    </div>
+                   
+ <div class="chartStyle summary" style="background-color:#03b78a; margin-left: 40px; height: 200px;width: 30%; ">
+                        <b>Summary</b><br/><br/>
+                        <table>
+                            <tr>
+                                <td>Status</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>Passed</td>
+                            </tr>
+                            <tr>
+                                <td>Execution Date</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>01-Jul-2021 08:01:24</td>
+                            </tr>
+                            
+
+                            <tr>
+                                <td>Browser</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>null</td>
+                            </tr>
+                        </table> 
+                    </div>
+   <div>
+                        <table class="chartStyle" id="tableStyle" style="height:50px; float: left">
+                            <tr>
+                                <th>S.No</th>
+                                <th>Step Description</th>
+                                <th>Input Value</th>
+                    <th>Actual Value</th>
+                   <th>Time</th>
+                                <th>Line No</th>
+                                <th>Status</th>
+                                <th>Screen shot</th>
+                            </tr>
+                           
+
+<tr><td>1</td>
+<td>URL = https://6ca37c1f96ea90f8b9aff
+3a2cf9586a308bb84c2d7f6adb4:500772
+2ec17fe43be36b705f43f7b057a5c625ff
+6fe7050f@api.exotel.com/v
+1/Accounts/exotelvoicetest
+1/Calls/connect.json</td>
+<td></td>
+<td>API Key:6ca37c1f96ea90f8b9aff
+3a2cf9586a308bb84c2d7f6adb4
+API_Password5007722ec17fe43be3
+6b705f43f7b057a5c625ff6fe7050f</td>
+<td>1625149851 Sec</td>
+<td>72</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>2</td>
+<td>Requested API OutboundCall and got
+200 response code</td>
+<td></td>
+<td>{"Call":{"Sid":"c6db897e5e511c
+0a87abe714a3ab157
+1","ParentCallSid":null,"Date-
+Created":"2021-07-01 20:00:5
+3","DateUpdated":"2021-07-01 2
+0:00:5
+3","AccountSid":"exotelvoicet-
+est1","To":"0804681022
+3","From":"0804680239
+6","PhoneNumberSid":"080468102
+23","Status":"in-
+progress","StartTime":"2021-07
+-01 20:00:5
+3","EndTime":null,"Duration":-
+null,"Price":null,"Direction"-
+:"outbound-
+api","AnsweredBy":null,"Forwa-
+rdedFrom":null,"CallerName":n-
+ull,"Uri":"\/v1\/Accounts\
+/exotelvoicetest1\/Calls\/c6db
+897e5e511c0a87abe714a3ab157
+1.json","RecordingUrl":null}}</td>
+<td>1289.0</td>
+<td></td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>3</td>
+<td>The value of sid </td>
+<td></td>
+<td>c6db897e5e511c0a87abe714a3ab15
+71</td>
+<td>2 Sec</td>
+<td>101</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>4</td>
+<td>Expected Value in-progress and
+Actual Value in-progress are
+matched</td>
+<td>in-progress</td>
+<td>in-progress</td>
+<td>1 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>5</td>
+<td>Expected Value exotelvoicetest1 and
+Actual Value exotelvoicetest1 are
+matched</td>
+<td>exotelvoicetest1</td>
+<td>exotelvoicetest1</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>6</td>
+<td>Expected Value 08046802396 and
+Actual Value 08046802396 are
+matched</td>
+<td>08046802396</td>
+<td>08046802396</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>7</td>
+<td>Expected Value 08046810223 and
+Actual Value 08046810223 are
+matched</td>
+<td>08046810223</td>
+<td>08046810223</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>8</td>
+<td>Expected Value 08046810223 and
+Actual Value 08046810223 are
+matched</td>
+<td>08046810223</td>
+<td>08046810223</td>
+<td>1 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>9</td>
+<td>Expected Value /v
+1/Accounts/exotelvoicetest1/Calls/c
+6db897e5e511c0a87abe714a3ab157
+1.json and Actual Value /v
+1/Accounts/exotelvoicetest1/Calls/c
+6db897e5e511c0a87abe714a3ab157
+1.json are matched</td>
+<td>/v
+1/Accounts/exotelvoicete-
+st1/Calls/c6db897e5e511c
+0a87abe714a3ab1571.json</td>
+<td>/v1/Accounts/exotelvoicetest
+1/Calls/c6db897e5e511c0a87abe7
+14a3ab1571.json</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>10</td>
+<td>URL = https://6ca37c1f96ea90f8b9aff
+3a2cf9586a308bb84c2d7f6adb4:500772
+2ec17fe43be36b705f43f7b057a5c625ff
+6fe7050f@api.exotel.com/v
+1/Accounts/exotelvoicetest1/Calls/c
+6db897e5e511c0a87abe714a3ab157
+1.json</td>
+<td></td>
+<td>API Key:6ca37c1f96ea90f8b9aff
+3a2cf9586a308bb84c2d7f6adb4
+API_Password5007722ec17fe43be3
+6b705f43f7b057a5c625ff6fe7050f</td>
+<td>30 Sec</td>
+<td>118</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>11</td>
+<td>Response String</td>
+<td></td>
+<td>{"Call":{"Sid":"c6db897e5e511c
+0a87abe714a3ab157
+1","ParentCallSid":null,"Date-
+Created":"2021-07-01 20:00:5
+3","DateUpdated":"2021-07-01 2
+0:01:1
+0","AccountSid":"exotelvoicet-
+est1","To":"0804681022
+3","From":"0804680239
+6","PhoneNumberSid":"080468102
+2
+3","Status":"completed","Star-
+tTime":"2021-07-01 20:01:0
+1","EndTime":"2021-07-01 20:0
+1:1
+0","Duration":null,"Price":nu-
+ll,"Direction":"outbound-
+api","AnsweredBy":null,"Forwa-
+rdedFrom":null,"CallerName":n-
+ull,"Uri":"\/v1\/Accounts\
+/exotelvoicetest1\/Calls\/c6db
+897e5e511c0a87abe714a3ab157
+1.json","RecordingUrl":"https:
+\/\/s3-ap-southeast-
+1.amazonaws.com\
+/exotelrecordings\
+/exotelvoicetest1\/c6db897e5e5
+11c0a87abe714a3ab1571.mp3"}}</td>
+<td>368.0</td>
+<td></td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>12</td>
+<td>Expected Value exotelvoicetest1 and
+Actual Value exotelvoicetest1 are
+matched</td>
+<td>exotelvoicetest1</td>
+<td>exotelvoicetest1</td>
+<td>440 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>13</td>
+<td>Expected Value 08046802396 and
+Actual Value 08046802396 are
+matched</td>
+<td>08046802396</td>
+<td>08046802396</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>14</td>
+<td>Expected Value 08046810223 and
+Actual Value 08046810223 are
+matched</td>
+<td>08046810223</td>
+<td>08046810223</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>15</td>
+<td>Expected Value 08046810223 and
+Actual Value 08046810223 are
+matched</td>
+<td>08046810223</td>
+<td>08046810223</td>
+<td>1 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>16</td>
+<td>Expected Value completed and Actual
+Value completed are matched</td>
+<td>completed</td>
+<td>completed</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>17</td>
+<td>Uri Value </td>
+<td></td>
+<td>/v1/Accounts/exotelvoicetest
+1/Calls/c6db897e5e511c0a87abe7
+14a3ab1571.json</td>
+<td>0 Milli Sec</td>
+<td>162</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>18</td>
+<td>Direction  </td>
+<td></td>
+<td>outbound-api</td>
+<td>0 Milli Sec</td>
+<td>163</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>19</td>
+<td>RecordingUrl </td>
+<td></td>
+<td>https://s3-ap-southeast-
+1.amazonaws.com/exotelrecordi-
+ngs/exotelvoicetest1/c6db897e
+5e511c0a87abe714a3ab1571.mp3</td>
+<td>1 Milli Sec</td>
+<td>164</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>20</td>
+<td>CallerName </td>
+<td></td>
+<td>null</td>
+<td>0 Milli Sec</td>
+<td>165</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>21</td>
+<td>AnsweredBy </td>
+<td></td>
+<td>null</td>
+<td>0 Milli Sec</td>
+<td>166</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>22</td>
+<td>Price </td>
+<td></td>
+<td>null</td>
+<td>0 Milli Sec</td>
+<td>167</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr>
+                        </table>  
+                    </div>
+
+                </td>
+            </tr>            <tr id="footer">
+<td colspan="2">
+&nbsp;
+TrackDfect Reports&nbsp;
+ Reports by: <a href="http://www.trackdfect.com/">TrackDfect.com</a>
+</td>
+</tr>
+</table>
+</body>
+</html>
