@@ -67,10 +67,35 @@ public class Testcases extends Config {
 	
 	@Test
 	public void outbound_001() throws IOException, JSONException {
-		outbound.statusCallback();
+		outbound.EXTC_001();
 	}
 	
 	
+	@Test
+	public void outbound_003() throws IOException, JSONException {
+		outbound.EXTC_003();
+	}
+	
+	@Test
+	public void outbound_004() throws IOException, JSONException {
+		outbound.EXTC_004();
+	}
+	
+	@Test
+	public void outbound_005() throws IOException, JSONException {
+		outbound.EXTC_005();
+	}
+	
+	@Test
+	public void outbound_009() throws IOException, JSONException {
+		outbound.EXTC_009();
+	}
+	
+	
+	@Test
+	public void outbound_010() {
+		outbound.EXTC_010();
+	}
 	
 	@Test
 	public void outbound_011() {
@@ -80,11 +105,6 @@ public class Testcases extends Config {
 	@Test
 	public void outbound_012() {
 		outbound.EXTC_012();
-	}
-	
-	@Test
-	public void outbound_013() {
-		outbound.EXTC_013();
 	}
 	
 	

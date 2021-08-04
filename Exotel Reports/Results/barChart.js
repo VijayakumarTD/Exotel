@@ -1,9 +1,9 @@
             $(document).ready(function(){
-                var s1 = [0,0,0,0,0,1,0,0,0,1];
-                var s2 = [1,1,1,1,1,0,1,1,1,0];
+                var s1 = [1,1,1,1,1,1,1,0,1,8];
+                var s2 = [0,0,0,0,0,0,0,1,0,0];
                 var s3 = [0,0,0,0,0,0,0,0,0,0];
 
-var ticks = [238,239,240,241,242,243,244,245,246,247];    $.jqplot('bar', [s1, s2, s3], {
+var ticks = [267,268,269,270,271,272,273,274,275,276];    $.jqplot('bar', [s1, s2, s3], {
         animate: true,axesDefaults:{min:0,tickInterval: 1},        seriesColors: ["#7BB661", "#E03C31", "#21ABCD"],
         stackSeries: false,
         seriesDefaults: {

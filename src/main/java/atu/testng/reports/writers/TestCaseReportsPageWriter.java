@@ -15,7 +15,7 @@ import java.net.MalformedURLException;
 import java.util.Iterator;
 import java.util.List;
 
-import org.omg.CORBA.LocalObject;
+
 import org.testng.ITestNGMethod;
 import org.testng.ITestResult;
 import org.testng.Reporter;

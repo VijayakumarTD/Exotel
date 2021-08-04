@@ -55,17 +55,26 @@
     <line>
       <![CDATA[STEP18]]>
     </line>
+    <line>
+      <![CDATA[STEP19]]>
+    </line>
+    <line>
+      <![CDATA[STEP20]]>
+    </line>
+    <line>
+      <![CDATA[STEP21]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="37246" started-at="2021-08-03T07:33:00Z" finished-at="2021-08-03T07:33:37Z">
+  <suite name="Suite" duration-ms="39500" started-at="2021-08-04T10:17:58Z" finished-at="2021-08-04T10:18:38Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="37246" started-at="2021-08-03T07:33:00Z" finished-at="2021-08-03T07:33:37Z">
+    <test name="Test" duration-ms="39500" started-at="2021-08-04T10:17:58Z" finished-at="2021-08-04T10:18:38Z">
       <class name="commonMethods.Testcases">
-        <test-method status="PASS" signature="getDataFromConfig()[pri:0, instance:commonMethods.Testcases@750e2b97]" name="getDataFromConfig" is-config="true" duration-ms="13" started-at="2021-08-03T13:03:00Z" finished-at="2021-08-03T13:03:00Z">
+        <test-method status="PASS" signature="getDataFromConfig()[pri:0, instance:commonMethods.Testcases@2ddc9a9f]" name="getDataFromConfig" is-config="true" duration-ms="10" started-at="2021-08-04T15:47:58Z" finished-at="2021-08-04T15:47:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDataFromConfig -->
-        <test-method status="PASS" signature="outbound_001()[pri:0, instance:commonMethods.Testcases@750e2b97]" name="outbound_001" duration-ms="37223" started-at="2021-08-03T13:03:00Z" finished-at="2021-08-03T13:03:37Z">
+        <test-method status="PASS" signature="outbound_003()[pri:0, instance:commonMethods.Testcases@2ddc9a9f]" name="outbound_003" duration-ms="39469" started-at="2021-08-04T15:47:58Z" finished-at="2021-08-04T15:48:38Z">
           <reporter-output>
             <line>
               <![CDATA[STEP1]]>
@@ -121,9 +130,18 @@
             <line>
               <![CDATA[STEP18]]>
             </line>
+            <line>
+              <![CDATA[STEP19]]>
+            </line>
+            <line>
+              <![CDATA[STEP20]]>
+            </line>
+            <line>
+              <![CDATA[STEP21]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- outbound_001 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:commonMethods.Testcases@750e2b97]" name="teardown" is-config="true" duration-ms="5" started-at="2021-08-03T13:03:37Z" finished-at="2021-08-03T13:03:37Z">
+        </test-method> <!-- outbound_003 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:commonMethods.Testcases@2ddc9a9f]" name="teardown" is-config="true" duration-ms="12" started-at="2021-08-04T15:48:38Z" finished-at="2021-08-04T15:48:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

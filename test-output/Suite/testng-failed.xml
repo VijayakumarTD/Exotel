@@ -10,7 +10,7 @@
     <classes>
       <class name="commonMethods.Testcases">
         <methods>
-          <include name="outbound_001()"/>
+          <include name="outbound_003()"/>
         </methods>
       </class> <!-- commonMethods.Testcases -->
     </classes>

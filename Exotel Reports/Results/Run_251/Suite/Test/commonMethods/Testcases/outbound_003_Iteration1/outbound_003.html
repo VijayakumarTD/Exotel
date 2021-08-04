@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pie Charts</title>
+
+        <link rel="stylesheet" type="text/css" href="../../../../../../../HTML_Design_Files/CSS/design.css" />
+        <link rel="stylesheet" type="text/css" href="../../../../../../../HTML_Design_Files/CSS/jquery.jqplot.css" />
+
+        <script type="text/javascript" src="../../../../../../../HTML_Design_Files/JS/jquery.min.js"></script>
+        <script type="text/javascript" src="../../../../../../../HTML_Design_Files/JS/jquery.jqplot.min.js"></script>
+        <!--[if lt IE 9]>
+        <script language="javascript" type="text/javascript" src="../../../../../../../HTML_Design_Files/JS/excanvas.js"></script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript" src="../../../../../../../HTML_Design_Files/JS/jqplot.pieRenderer.min.js"></script>
+        <script language="javascript" type="text/javascript">$(document).ready(function() { $(".exception").hide(); $("#showmenu").show(); $('#showmenu').click(function() { $('.exception').toggle("slide"); }); });        </script>    </head>
+    <body>
+        <table id="mainTable">
+            <tr id="header" >
+                <td id="logo"><img src="../../../../../../../HTML_Design_Files/IMG/TrackDfect.jpg" alt="Logo" height="80" width="140" /> <br/></td>
+                <td id="headertext">
+           Exotel Reports         
+<div style="padding-right:20px;float:right"><img src="../../../../../../../HTML_Design_Files/IMG/exotel-logo-vector.png" height="70" width="140" /> </i></div>                </td>
+            </tr>
+
+            <tr id="container">
+                <td id="menu">
+                    <ul> 
+
+ <li class="menuStyle"><a href="../../../../../../../index.html" >Index</a></li><li style="padding-top: 4px;"><a href="../../../../../../ConsolidatedPage.html" >Consolidated Page</a></li>
+
+
+                    </ul>
+                </td>
+
+
+<td id="content">   
+                    <div class="info">
+       TestCase Name: <b>outbound_003  :  Iteration 1</b><br/>                        Time Taken for Executing: <b>37 Sec</b> <br/>
+                        Current Run Number: <b>Run 251</b></br>
+                    </div>
+<div class="chartStyle summary" style="background-color:#dbae0f;width: 30%; height: 200px;">          
+                        <b>Execution Platform Details</b><br/><br/>
+                        <table>
+                            <tr>
+                                <td>O.S</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>Windows 10, amd64Bit, v10.0</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>1.8.0_201</td>
+                            </tr>
+
+                            <tr>
+                                <td>Hostname</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>DESKTOP-3LK6P0J</td>
+                            </tr>
+
+                            <tr>
+                        </table>  
+                    </div>
+                   
+ <div class="chartStyle summary" style="background-color:#03b78a; margin-left: 40px; height: 200px;width: 30%; ">
+                        <b>Summary</b><br/><br/>
+                        <table>
+                            <tr>
+                                <td>Status</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>Passed</td>
+                            </tr>
+                            <tr>
+                                <td>Execution Date</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>04-Aug-2021 10:51:27</td>
+                            </tr>
+                            
+
+                            <tr>
+                                <td>Browser</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>null</td>
+                            </tr>
+                        </table> 
+                    </div>
+   <div>
+                        <table class="chartStyle" id="tableStyle" style="height:50px; float: left">
+                            <tr>
+                                <th>S.No</th>
+                                <th>Step Description</th>
+                                <th>Input Value</th>
+                    <th>Actual Value</th>
+                   <th>Time</th>
+                                <th>Line No</th>
+                                <th>Status</th>
+                                <th>Screen shot</th>
+                            </tr>
+                           
+
+<tr><td>1</td>
+<td>URL = https://6ca37c1f96ea90f8b9aff
+3a2cf9586a308bb84c2d7f6adb4:500772
+2ec17fe43be36b705f43f7b057a5c625ff
+6fe7050f@api.exotel.com/v
+1/Accounts/exotelvoicetest
+1/Calls/connect.json</td>
+<td></td>
+<td>API Key:6ca37c1f96ea90f8b9aff
+3a2cf9586a308bb84c2d7f6adb4
+API_Password5007722ec17fe43be3
+6b705f43f7b057a5c625ff6fe7050f</td>
+<td>1628054450 Sec</td>
+<td>220</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>2</td>
+<td>Requested API OutboundCall and got
+200 response code</td>
+<td></td>
+<td>{"Call":{"Sid":"cea46452ffb5a6
+68551752349a79158
+4","ParentCallSid":null,"Date-
+Created":"2021-08-04 10:50:5
+4","DateUpdated":"2021-08-04 1
+0:50:5
+4","AccountSid":"exotelvoicet-
+est1","To":"0804568109
+6","From":"0804568109
+6","PhoneNumberSid":"080468102
+23","Status":"in-
+progress","StartTime":"2021-08
+-04 10:50:5
+4","EndTime":null,"Duration":-
+null,"Price":null,"Direction"-
+:"outbound-
+api","AnsweredBy":null,"Forwa-
+rdedFrom":null,"CallerName":n-
+ull,"Uri":"\/v1\/Accounts\
+/exotelvoicetest1\/Calls\/cea4
+6452ffb5a668551752349a79158
+4.json","RecordingUrl":null}}</td>
+<td>1193.0</td>
+<td></td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>3</td>
+<td>The value of sid </td>
+<td></td>
+<td>cea46452ffb5a668551752349a7915
+84</td>
+<td>1 Sec</td>
+<td>236</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>4</td>
+<td>AWS link</td>
+<td></td>
+<td>http://ec2-3-109-100-2.ap-
+south-
+1.compute.amazonaws.com/callb-
+ack_json/cea46452ffb5a66855175
+2349a791584.json</td>
+<td>35 Sec</td>
+<td>250</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>5</td>
+<td>Response String</td>
+<td></td>
+<td>{"status":404,"error":"Not
+Found","exception":"#\u00
+3cActionController::RoutingEr-
+ror: No route matches [GET] \
+"/callback_json/cea46452ffb5a6
+68551752349a791584.json\"\u00
+3e","traces":{"Application
+Trace":[],"Framework Trace":[{
+"exception_object_id":814
+0,"id":0,"trace":"actionpack (
+6.1.4)
+lib/action_dispatch/middlewar-
+e/debug_exceptions.rb:33:in `
+call'"},{
+"exception_object_id":814
+0,"id":1,"trace":"actionpack (
+6.1.4)
+lib/action_dispatch/middlewar-
+e/show_exceptions.rb:33:in `
+call'"},{
+"exception_object_id":814
+0,"id":2,"trace":"railties (6.
+1.4) lib/rails/rack/logger.rb:
+37:in `call_app'"},{
+"exception_object_id":814
+0,"id":3,"trace":"railties (6.
+1.4) lib/rails/rack/logger.rb:
+26:in `block in call'"},{
+"exception_object_id":814
+0,"id":
+4,"trace":"activesupport (6.1.
+4)
+lib/active_support/tagged_log-
+ging.rb:99:in `block in
+tagged'"},{
+"exception_object_id":814
+0,"id":
+5,"trace":"activesupport (6.1.
+4)
+lib/active_support/tagged_log-
+ging.rb:37:in `tagged'"},{
+"exception_object_id":814
+0,"id":
+6,"trace":"activesupport (6.1.
+4)
+lib/active_support/tagged_log-
+ging.rb:99:in `tagged'"},{
+"exception_object_id":814
+0,"id":7,"trace":"railties (6.
+1.4) lib/rails/rack/logger.rb:
+26:in `call'"},{
+"exception_object_id":814
+0,"id":8,"trace":"actionpack (
+6.1.4)
+lib/action_dispatch/middlewar-
+e/remote_ip.rb:81:in `call'"},
+{"exception_object_id":814
+0,"id":9,"trace":"actionpack (
+6.1.4)
+lib/action_dispatch/middlewar-
+e/request_id.rb:26:in `call'"}
+,{"exception_object_id":814
+0,"id":10,"trace":"rack (2.2.3
+) lib/rack/runtime.rb:22:in `
+call'"},{
+"exception_object_id":814
+0,"id":1
+1,"trace":"activesupport (6.1.
+4)
+lib/active_support/cache/stra-
+tegy/local_cache_middleware.r-
+b:29:in `call'"},{
+"exception_object_id":814
+0,"id":12,"trace":"actionpack
+(6.1.4)
+lib/action_dispatch/middlewar-
+e/executor.rb:14:in `call'"},{
+"exception_object_id":814
+0,"id":13,"trace":"actionpack
+(6.1.4)
+lib/action_dispatch/middlewar-
+e/static.rb:24:in `call'"},{
+"exception_object_id":814
+0,"id":14,"trace":"rack (2.2.3
+) lib/rack/sendfile.rb:110:in
+`call'"},{
+"exception_object_id":814
+0,"id":15,"trace":"actionpack
+(6.1.4)
+lib/action_dispatch/middlewar-
+e/host_authorization.rb:98:in
+`call'"},{
+"exception_object_id":814
+0,"id":16,"trace":"railties (
+6.1.4) lib/rails/engine.rb:53
+9:in `call'"},{
+"exception_object_id":814
+0,"id":17,"trace":"puma (5.3.2
+) lib/puma/configuration.rb:24
+9:in `call'"},{
+"exception_object_id":814
+0,"id":18,"trace":"puma (5.3.2
+) lib/puma/request.rb:77:in `
+block in handle_request'"},{
+"exception_object_id":814
+0,"id":19,"trace":"puma (5.3.2
+) lib/puma/thread_pool.rb:33
+8:in `with_force_shutdown'"},{
+"exception_object_id":814
+0,"id":20,"trace":"puma (5.3.2
+) lib/puma/request.rb:76:in `
+handle_request'"},{
+"exception_object_id":814
+0,"id":21,"trace":"puma (5.3.2
+) lib/puma/server.rb:438:in `
+process_client'"},{
+"exception_object_id":814
+0,"id":22,"trace":"puma (5.3.2
+) lib/puma/thread_pool.rb:14
+5:in `block in spawn_thread'"}
+],"Full Trace":[{
+"exception_object_id":814
+0,"id":0,"trace":"actionpack (
+6.1.4)
+lib/action_dispatch/middlewar-
+e/debug_exceptions.rb:33:in `
+call'"},{
+"exception_object_id":814
+0,"id":1,"trace":"actionpack (
+6.1.4)
+lib/action_dispatch/middlewar-
+e/show_exceptions.rb:33:in `
+call'"},{
+"exception_object_id":814
+0,"id":2,"trace":"railties (6.
+1.4) lib/rails/rack/logger.rb:
+37:in `call_app'"},{
+"exception_object_id":814
+0,"id":3,"trace":"railties (6.
+1.4) lib/rails/rack/logger.rb:
+26:in `block in call'"},{
+"exception_object_id":814
+0,"id":
+4,"trace":"activesupport (6.1.
+4)
+lib/active_support/tagged_log-
+ging.rb:99:in `block in
+tagged'"},{
+"exception_object_id":814
+0,"id":
+5,"trace":"activesupport (6.1.
+4)
+lib/active_support/tagged_log-
+ging.rb:37:in `tagged'"},{
+"exception_object_id":814
+0,"id":
+6,"trace":"activesupport (6.1.
+4)
+lib/active_support/tagged_log-
+ging.rb:99:in `tagged'"},{
+"exception_object_id":814
+0,"id":7,"trace":"railties (6.
+1.4) lib/rails/rack/logger.rb:
+26:in `call'"},{
+"exception_object_id":814
+0,"id":8,"trace":"actionpack (
+6.1.4)
+lib/action_dispatch/middlewar-
+e/remote_ip.rb:81:in `call'"},
+{"exception_object_id":814
+0,"id":9,"trace":"actionpack (
+6.1.4)
+lib/action_dispatch/middlewar-
+e/request_id.rb:26:in `call'"}
+,{"exception_object_id":814
+0,"id":10,"trace":"rack (2.2.3
+) lib/rack/runtime.rb:22:in `
+call'"},{
+"exception_object_id":814
+0,"id":1
+1,"trace":"activesupport (6.1.
+4)
+lib/active_support/cache/stra-
+tegy/local_cache_middleware.r-
+b:29:in `call'"},{
+"exception_object_id":814
+0,"id":12,"trace":"actionpack
+(6.1.4)
+lib/action_dispatch/middlewar-
+e/executor.rb:14:in `call'"},{
+"exception_object_id":814
+0,"id":13,"trace":"actionpack
+(6.1.4)
+lib/action_dispatch/middlewar-
+e/static.rb:24:in `call'"},{
+"exception_object_id":814
+0,"id":14,"trace":"rack (2.2.3
+) lib/rack/sendfile.rb:110:in
+`call'"},{
+"exception_object_id":814
+0,"id":15,"trace":"actionpack
+(6.1.4)
+lib/action_dispatch/middlewar-
+e/host_authorization.rb:98:in
+`call'"},{
+"exception_object_id":814
+0,"id":16,"trace":"railties (
+6.1.4) lib/rails/engine.rb:53
+9:in `call'"},{
+"exception_object_id":814
+0,"id":17,"trace":"puma (5.3.2
+) lib/puma/configuration.rb:24
+9:in `call'"},{
+"exception_object_id":814
+0,"id":18,"trace":"puma (5.3.2
+) lib/puma/request.rb:77:in `
+block in handle_request'"},{
+"exception_object_id":814
+0,"id":19,"trace":"puma (5.3.2
+) lib/puma/thread_pool.rb:33
+8:in `with_force_shutdown'"},{
+"exception_object_id":814
+0,"id":20,"trace":"puma (5.3.2
+) lib/puma/request.rb:76:in `
+handle_request'"},{
+"exception_object_id":814
+0,"id":21,"trace":"puma (5.3.2
+) lib/puma/server.rb:438:in `
+process_client'"},{
+"exception_object_id":814
+0,"id":22,"trace":"puma (5.3.2
+) lib/puma/thread_pool.rb:14
+5:in `block in spawn_thread'"}
+]}}</td>
+<td>70.0</td>
+<td></td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr>
+                        </table>  
+                    </div>
+
+                </td>
+            </tr>            <tr id="footer">
+<td colspan="2">
+&nbsp;
+TrackDfect Reports&nbsp;
+ Reports by: <a href="http://www.trackdfect.com/">TrackDfect.com</a>
+</td>
+</tr>
+</table>
+</body>
+</html>

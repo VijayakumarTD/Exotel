@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pie Charts</title>
+
+        <link rel="stylesheet" type="text/css" href="../../../../../../../HTML_Design_Files/CSS/design.css" />
+        <link rel="stylesheet" type="text/css" href="../../../../../../../HTML_Design_Files/CSS/jquery.jqplot.css" />
+
+        <script type="text/javascript" src="../../../../../../../HTML_Design_Files/JS/jquery.min.js"></script>
+        <script type="text/javascript" src="../../../../../../../HTML_Design_Files/JS/jquery.jqplot.min.js"></script>
+        <!--[if lt IE 9]>
+        <script language="javascript" type="text/javascript" src="../../../../../../../HTML_Design_Files/JS/excanvas.js"></script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript" src="../../../../../../../HTML_Design_Files/JS/jqplot.pieRenderer.min.js"></script>
+        <script language="javascript" type="text/javascript">$(document).ready(function() { $(".exception").hide(); $("#showmenu").show(); $('#showmenu').click(function() { $('.exception').toggle("slide"); }); });        </script>    </head>
+    <body>
+        <table id="mainTable">
+            <tr id="header" >
+                <td id="logo"><img src="../../../../../../../HTML_Design_Files/IMG/TrackDfect.jpg" alt="Logo" height="80" width="140" /> <br/></td>
+                <td id="headertext">
+           Exotel Reports         
+<div style="padding-right:20px;float:right"><img src="../../../../../../../HTML_Design_Files/IMG/exotel-logo-vector.png" height="70" width="140" /> </i></div>                </td>
+            </tr>
+
+            <tr id="container">
+                <td id="menu">
+                    <ul> 
+
+ <li class="menuStyle"><a href="../../../../../../../index.html" >Index</a></li><li style="padding-top: 4px;"><a href="../../../../../../ConsolidatedPage.html" >Consolidated Page</a></li>
+
+
+                    </ul>
+                </td>
+
+
+<td id="content">   
+                    <div class="info">
+       TestCase Name: <b>outbound_005  :  Iteration 1</b><br/>                        Time Taken for Executing: <b>35 Sec</b> <br/>
+                        Current Run Number: <b>Run 276</b></br>
+                    </div>
+<div class="chartStyle summary" style="background-color:#dbae0f;width: 30%; height: 200px;">          
+                        <b>Execution Platform Details</b><br/><br/>
+                        <table>
+                            <tr>
+                                <td>O.S</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>Windows 10, amd64Bit, v10.0</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>1.8.0_201</td>
+                            </tr>
+
+                            <tr>
+                                <td>Hostname</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>DESKTOP-3LK6P0J</td>
+                            </tr>
+
+                            <tr>
+                        </table>  
+                    </div>
+                   
+ <div class="chartStyle summary" style="background-color:#03b78a; margin-left: 40px; height: 200px;width: 30%; ">
+                        <b>Summary</b><br/><br/>
+                        <table>
+                            <tr>
+                                <td>Status</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>Passed</td>
+                            </tr>
+                            <tr>
+                                <td>Execution Date</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>04-Aug-2021 04:09:36</td>
+                            </tr>
+                            
+
+                            <tr>
+                                <td>Browser</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>null</td>
+                            </tr>
+                        </table> 
+                    </div>
+   <div>
+                        <table class="chartStyle" id="tableStyle" style="height:50px; float: left">
+                            <tr>
+                                <th>S.No</th>
+                                <th>Step Description</th>
+                                <th>Input Value</th>
+                    <th>Actual Value</th>
+                   <th>Time</th>
+                                <th>Line No</th>
+                                <th>Status</th>
+                                <th>Screen shot</th>
+                            </tr>
+                           
+
+<tr><td>1</td>
+<td>URL = https://6ca37c1f96ea90f8b9aff
+3a2cf9586a308bb84c2d7f6adb4:500772
+2ec17fe43be36b705f43f7b057a5c625ff
+6fe7050f@api.exotel.com/v
+1/Accounts/exotelvoicetest
+1/Calls/connect.json</td>
+<td></td>
+<td>API Key:6ca37c1f96ea90f8b9aff
+3a2cf9586a308bb84c2d7f6adb4
+API_Password5007722ec17fe43be3
+6b705f43f7b057a5c625ff6fe7050f</td>
+<td>189 Milli Sec</td>
+<td>514</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>2</td>
+<td>Requested API OutboundCall and got
+200 response code</td>
+<td></td>
+<td>{"Call":{"Sid":"4726a762160efe
+502aa9cff51863158
+4","ParentCallSid":null,"Date-
+Created":"2021-08-04 16:08:2
+4","DateUpdated":"2021-08-04 1
+6:08:2
+4","AccountSid":"exotelvoicet-
+est1","To":"0804680585
+1","From":"0804568109
+6","PhoneNumberSid":"080468102
+23","Status":"in-
+progress","StartTime":"2021-08
+-04 16:08:2
+4","EndTime":null,"Duration":-
+null,"Price":null,"Direction"-
+:"outbound-
+api","AnsweredBy":null,"Forwa-
+rdedFrom":null,"CallerName":n-
+ull,"Uri":"\/v1\/Accounts\
+/exotelvoicetest1\/Calls\/472
+6a762160efe502aa9cff51863158
+4.json","RecordingUrl":null}}</td>
+<td>464.0</td>
+<td></td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>3</td>
+<td>The value of sid </td>
+<td></td>
+<td>4726a762160efe502aa9cff5186315
+84</td>
+<td>470 Milli Sec</td>
+<td>530</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>4</td>
+<td>AWS link</td>
+<td></td>
+<td>http://ec2-3-109-100-2.ap-
+south-
+1.compute.amazonaws.com/callb-
+ack_json/4726a762160efe502aa
+9cff518631584.json</td>
+<td>35 Sec</td>
+<td>544</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>5</td>
+<td>Response String</td>
+<td></td>
+<td>{"CallSid":"4726a762160efe50
+2aa9cff51863158
+4","EventType":"terminal","Da-
+teCreated":"2021-08-04 16:08:2
+4","DateUpdated":"2021-08-04 1
+6:08:4
+1","Status":"failed","To":"080
+46805851","From":"0804568109
+6","PhoneNumberSid":"080468102
+23","StartTime":"2021-08-04 1
+6:08:28","EndTime":"2021-08-04
+16:08:41","EventTime":"2021-08
+-04 16:08:4
+1","Direction":"outbound-
+api","RecordingUrl":"","Conve-
+rsationDuration":0,"Legs":[{
+"OnCallDuration":1
+3,"Status":"completed"},{
+"OnCallDuration":
+0,"Status":"canceled"}]
+,"status":{"CallSid":"4726a762
+160efe502aa9cff51863158
+4","EventType":"terminal","Da-
+teCreated":"2021-08-04 16:08:2
+4","DateUpdated":"2021-08-04 1
+6:08:4
+1","Status":"failed","To":"080
+46805851","From":"0804568109
+6","PhoneNumberSid":"080468102
+23","StartTime":"2021-08-04 1
+6:08:28","EndTime":"2021-08-04
+16:08:41","EventTime":"2021-08
+-04 16:08:4
+1","Direction":"outbound-
+api","RecordingUrl":"","Conve-
+rsationDuration":0,"Legs":[{
+"OnCallDuration":1
+3,"Status":"completed"},{
+"OnCallDuration":
+0,"Status":"canceled"}]}}
+</td>
+<td>56.0</td>
+<td></td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>6</td>
+<td>Call Status</td>
+<td></td>
+<td>failed</td>
+<td>62 Milli Sec</td>
+<td>574</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>7</td>
+<td>Leg 0_OnCallDuration</td>
+<td></td>
+<td>13</td>
+<td>0 Milli Sec</td>
+<td>578</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>8</td>
+<td>Leg 0_Status</td>
+<td></td>
+<td>completed</td>
+<td>0 Milli Sec</td>
+<td>581</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>9</td>
+<td>Leg 1_OnCallDuration</td>
+<td></td>
+<td>0</td>
+<td>0 Milli Sec</td>
+<td>583</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>10</td>
+<td>Leg 1_Status</td>
+<td></td>
+<td>canceled</td>
+<td>0 Milli Sec</td>
+<td>585</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>11</td>
+<td>RecordingUrl</td>
+<td></td>
+<td></td>
+<td>0 Milli Sec</td>
+<td>588</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>12</td>
+<td>Callsid</td>
+<td></td>
+<td>4726a762160efe502aa9cff5186315
+84</td>
+<td>0 Milli Sec</td>
+<td>591</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>13</td>
+<td>To Number</td>
+<td></td>
+<td>08046805851</td>
+<td>0 Milli Sec</td>
+<td>594</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>14</td>
+<td>From Number</td>
+<td></td>
+<td>08045681096</td>
+<td>0 Milli Sec</td>
+<td>597</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>15</td>
+<td>CallerId</td>
+<td></td>
+<td>08046810223</td>
+<td>1 Milli Sec</td>
+<td>600</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>16</td>
+<td>Expected Value 4726a762160efe502aa
+9cff518631584 and Actual Value 472
+6a762160efe502aa9cff518631584 are
+matched</td>
+<td>4726a762160efe502aa9cff51
+8631584</td>
+<td>4726a762160efe502aa9cff5186315
+84</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>17</td>
+<td>Expected Value 08046805851 and
+Actual Value 08046805851 are
+matched</td>
+<td>08046805851</td>
+<td>08046805851</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>18</td>
+<td>Expected Value 08045681096 and
+Actual Value 08045681096 are
+matched</td>
+<td>08045681096</td>
+<td>08045681096</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>19</td>
+<td>Expected Value 08046810223 and
+Actual Value 08046810223 are
+matched</td>
+<td>08046810223</td>
+<td>08046810223</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>20</td>
+<td>Expected Value failed and Actual
+Value failed are matched</td>
+<td>failed</td>
+<td>failed</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>21</td>
+<td>Expected Value completed and Actual
+Value completed are matched</td>
+<td>completed</td>
+<td>completed</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr><tr><td>22</td>
+<td>Expected Value canceled and Actual
+Value canceled are matched</td>
+<td>canceled</td>
+<td>canceled</td>
+<td>0 Milli Sec</td>
+<td>364</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td></td>
+</tr>
+                        </table>  
+                    </div>
+
+                </td>
+            </tr>            <tr id="footer">
+<td colspan="2">
+&nbsp;
+TrackDfect Reports&nbsp;
+ Reports by: <a href="http://www.trackdfect.com/">TrackDfect.com</a>
+</td>
+</tr>
+</table>
+</body>
+</html>
